@@ -1,0 +1,22 @@
+---
+title: "function_details"
+author: "Cristina Regueiro"
+date: "23/10/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This package contains five functions:<br><br>
+
+**1.** ```fars_read(filename)```:  reads data from a csv file
+
+**2.** ```make_filename(year)```: makes .csv data file  taking into account the year given
+
+**3.** ```fars_read_years(year)```: selects data taking into account the month
+
+**4.** ```fars_summarize_years(year)```: summarizes yearly accidents, by month
+
+**5.** ```fars_map_state(state.num, year)```: makes a plot with a state map showing the accidents location by year
